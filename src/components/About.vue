@@ -11,9 +11,11 @@
           <p class="about-text text-center ">I've studied Business Information Systems in University but I found more passion and enjoyment in Web Development compared to BIS jobs, I am working on getting more into the Industry because it makes excellent use of my critical thinking, problem-solving, creativity skills and my fast learning capability makes me easily learn, adapt and stay up to date with the latest technologies.  </p>
 
         </div>
-        <div class="col-lg-6 col-md-10 col-sm-12 col-xs-12 ">
-          <p class="about-text text-center" >Some Technologies I've Worked With</p>
-          <div >
+        <div class="col-lg-6 col-md-10 col-sm-12 col-xs-12 text-center">
+          <div>
+          <p class="about-text text-center" >Some Technologies I've Worked With</p></div>
+          <div>
+          <div>
             <img src="@/assets/vue.png" alt="" class="tech-skill-logo col-lg-2" >
             <img src="@/assets/javascript.png" alt="" class="tech-skill-logo   col-lg-2 col-md-2 col-sm-3">
             <img src="@/assets/html5.png" alt="" class="tech-skill-logo col-lg-2 col-md-2 col-sm-3">
@@ -26,7 +28,7 @@
              <img src="@/assets/jquery.png" alt="" class="tech-skill-logo col-lg-2 col-md-2 col-sm-3">
              <img src="@/assets/github.png" alt="" class="tech-skill-logo col-lg-2 col-md-2 col-sm-3">
              <img src="@/assets/visualstudio.png" alt="" class="tech-skill-logo col-lg-2 col-md-2 col-sm-3">
-          </div>
+          </div></div>
         </div>
         <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 mt-7">
           

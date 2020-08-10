@@ -204,7 +204,7 @@
       </v-container>
       </v-flex>
       <div class="d-flex justify-center mt-12">
-     <a href="#projects" class="link-btn"><v-btn rounded="true" x-large="true">
+     <a href="https://github.com/lukastars?tab=repositories" class="link-btn" target="_blank"><v-btn rounded="true" x-large="true">
           <span class="projects-btn">More Projects</span>
         </v-btn></a>
       </div> 
