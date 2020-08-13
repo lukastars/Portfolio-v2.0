@@ -48,7 +48,7 @@
               </v-btn>
               </v-list-item>
               <v-list-item>
-              <a href="@/assets/Ali's_Resume.pdf" target="_blank"><v-btn text="true">
+              <a href="https://drive.google.com/file/d/1D6Le7SFhZlz-GRmyP9rqvxFM735CB5cd/view?usp=sharing" target="_blank" class="link-btn"><v-btn text="true">
                 <span class="text-color">Résumé</span>
               </v-btn></a>
                   </v-list-item>
@@ -77,7 +77,7 @@
             <v-btn text="true" right class="mr-2" @click="$vuetify.goTo(target[1], options)">
               <span class="text-color">About</span>
             </v-btn>
-            <a href="@/assets/Ali's_Resume.pdf" target="_blank" class="link-btn"> <v-btn text="true" right>
+            <a href="https://drive.google.com/file/d/1D6Le7SFhZlz-GRmyP9rqvxFM735CB5cd/view?usp=sharing" target="_blank" class="link-btn"> <v-btn text="true" right>
               <span class="text-color">Résumé</span>
             </v-btn> </a>
           
