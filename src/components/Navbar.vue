@@ -48,9 +48,9 @@
               </v-btn>
               </v-list-item>
               <v-list-item>
-              <v-btn text="true">
+              <a href="@/assets/Ali's_Resume.pdf" target="_blank"><v-btn text="true">
                 <span class="text-color">Résumé</span>
-              </v-btn>
+              </v-btn></a>
                   </v-list-item>
                   <v-list-item>
                    <a href="https://www.linkedin.com/in/ali-a-81ab8112a" target="_blank" class="link-btn"><v-btn x-small style="background-color: #252835;" fab  depressed="true" dark v-bind="attrs"
@@ -75,11 +75,11 @@
               <span class="text-color">Projects</span>
             </v-btn>
             <v-btn text="true" right class="mr-2" @click="$vuetify.goTo(target[1], options)">
-              <a class="link-btn" href="#about"> <span class="text-color">About</span></a>
+              <span class="text-color">About</span>
             </v-btn>
-            <v-btn text="true" right>
-              <a class="link-btn" href="http://google.com" target="_blank"> <span class="text-color">Résumé</span></a>
-            </v-btn>
+            <a href="@/assets/Ali's_Resume.pdf" target="_blank" class="link-btn"> <v-btn text="true" right>
+              <span class="text-color">Résumé</span>
+            </v-btn> </a>
           
         </div>
       </v-toolbar>
