@@ -12,7 +12,7 @@
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <v-card
           class="mx-auto"
-          max-width="300"
+          max-width="350"
           dark>
           <v-img
           height="200px"
@@ -24,9 +24,12 @@
               <p class="project-title">Open Tabs landing Page</p>
             </v-card-subtitle>
 
-          <v-card-text class="white--text" style="overflow-y: auto; height:319px">
+          <v-card-text class="white--text" style="overflow-y: auto;">
+            <div style="height:135px">
             <div class="project-description text-center">I built the landing page from scratch to show the company's missions such as (Saving Rainforests, Preventing Malaria, and Providing Microloans) and to show how to download our browser extension that is the main source of the company's donations. 
             </div>
+            </div>
+            <div style="height:150px">
             <div class="project-description pt-5 text-center" style="font-weight:700;">
             Technologies Used
             </div>   
@@ -38,6 +41,7 @@
               <v-list-item-title class="project-description">SASS</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
+          </div>
 
           </v-card-text>
 
@@ -77,7 +81,7 @@
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <v-card
           class="mx-auto"
-          max-width="300"
+          max-width="350"
           dark>
           <v-img
           height="200px"
@@ -89,9 +93,12 @@
               <p class="project-title">Open Tabs Blog</p>
             </v-card-subtitle>
 
-          <v-card-text class="white--text" style="overflow-y: auto; height:319px">
+          <v-card-text class="white--text" style="overflow-y: auto;">
+            <div style="height:135px">
             <div class="project-description text-center">I made a blog for OpenTabs to share its latest updates and news with the world in a simple and elegant style.
             </div>
+            </div>
+            <div style="height:150px">
             <div class="project-description pt-5 text-center" style="font-weight:700;">
             Technologies Used
             </div>   
@@ -103,6 +110,7 @@
               <v-list-item-title class="project-description">SASS</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
+          </div>
 
           </v-card-text>
 
@@ -142,7 +150,7 @@
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <v-card
           class="mx-auto"
-          max-width="300"
+          max-width="350"
           dark>
           <v-img
           height="200px"
@@ -153,10 +161,13 @@
             <v-card-subtitle class="pb-0 white--text text-center">
               <p class="project-title">Apex Legends Tracker App</p>
             </v-card-subtitle>
-
-          <v-card-text class="white--text" style="overflow-y: auto; height:319px">
+          
+          <v-card-text class="white--text" style="overflow-y: auto;">
+            <div style="height:135px;">
             <div class="project-description text-center">A Full-Stack web application that tracks Apex Legends players status. I got the API that show players data from tracker.gg, Then I used Postman to test the API by createing HTTP/s requests and reading their responses. Then I built the Fron-End from scratch using Vue.js with Vue-router
             </div>
+            </div>
+              <div style="height:150px">
             <div class="project-description pt-5 text-center" style="font-weight:700;">
             Technologies Used
             </div>   
@@ -186,7 +197,7 @@
             </div>
           </v-list-item>
           </div>
-
+          </div>
           </v-card-text>
 
           <v-card-actions class="d-flex justify-center">
@@ -225,7 +236,7 @@
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
         <v-card
           class="mx-auto"
-          max-width="300"
+          max-width="350"
           dark>
           <v-img
           height="200px"
@@ -237,9 +248,12 @@
               <p class="project-title">Digital Agency Website</p>
             </v-card-subtitle>
 
-          <v-card-text class="white--text" style="overflow-y: auto; height:319px">
+          <v-card-text class="white--text" style="overflow-y: auto;">
+            <div style="height:135px">
             <div class="project-description text-center">A fully responsive modern and elegant website for a Digital Agency selling almost any kind of services.
             </div>
+            </div>
+            <div style="height: 150px">
             <div class="project-description pt-5 text-center" style="font-weight:700;">
             Technologies Used
             </div>   
@@ -251,6 +265,7 @@
               <v-list-item-title class="project-description">SASS</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
+          </div>
 
           </v-card-text>
 
