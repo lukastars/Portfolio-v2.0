@@ -21,7 +21,7 @@
           </v-img>
 
             <v-card-subtitle class="pb-0 white--text text-center">
-              <p class="project-title">Open Tabs landing page</p>
+              <p class="project-title">Open Tabs landing Page</p>
             </v-card-subtitle>
 
           <v-card-text class="white--text" style="overflow-y: auto; height:319px">
@@ -86,7 +86,7 @@
           </v-img>
 
             <v-card-subtitle class="pb-0 white--text text-center">
-              <p class="project-title">Open Tabs blog</p>
+              <p class="project-title">Open Tabs Blog</p>
             </v-card-subtitle>
 
           <v-card-text class="white--text" style="overflow-y: auto; height:319px">
@@ -151,7 +151,7 @@
           </v-img>
 
             <v-card-subtitle class="pb-0 white--text text-center">
-              <p class="project-title">Digital Agency Website</p>
+              <p class="project-title">Apex Legends Tracker App</p>
             </v-card-subtitle>
 
           <v-card-text class="white--text" style="overflow-y: auto; height:319px">
@@ -167,9 +167,9 @@
             </div> 
           <v-list-item>
             <v-list-item-content  class="pb-0 text-center">
-              <v-list-item-title class="project-description">HTML/CSS</v-list-item-title>
-              <v-list-item-title class="project-description">BoorStrap4</v-list-item-title>
-              <v-list-item-title class="project-description">JavaScript</v-list-item-title>
+              <v-list-item-title class="project-description">Vue.js with Vue-router</v-list-item-title>
+              <v-list-item-title class="project-description">HTML/CSS/JavaScript</v-list-item-title>             
+              <v-list-item-title class="project-description">Vue Toasted</v-list-item-title>             
             </v-list-item-content>
           </v-list-item>
           </div>
@@ -179,9 +179,9 @@
             Back-End
             </div> 
             <v-list-item-content  class="pb-0 text-center">
-              <v-list-item-title class="project-description">HTML/CSS</v-list-item-title>
-              <v-list-item-title class="project-description">BoorStrap4</v-list-item-title>
-              <v-list-item-title class="project-description">JavaScript</v-list-item-title>
+              <v-list-item-title class="project-description">Node.js</v-list-item-title>
+              <v-list-item-title class="project-description">Express.js</v-list-item-title>
+              <v-list-item-title class="project-description">Postman, Axios</v-list-item-title>
             </v-list-item-content>
             </div>
           </v-list-item>
@@ -246,8 +246,9 @@
           <v-list-item>
             <v-list-item-content  class="pb-0 text-center">
               <v-list-item-title class="project-description">HTML/CSS</v-list-item-title>
-              <v-list-item-title class="project-description">BoorStrap4</v-list-item-title>
               <v-list-item-title class="project-description">JavaScript</v-list-item-title>
+              <v-list-item-title class="project-description">BoorStrap4</v-list-item-title>
+              <v-list-item-title class="project-description">SASS</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
