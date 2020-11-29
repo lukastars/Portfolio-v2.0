@@ -49,7 +49,7 @@
             <v-tooltip top close-delay="300" color="secondary">
               <template v-slot:activator="{ on, attrs }">
                 <div class="text-center mr-5">
-                 <a href="https://relaxant-forearms.000webhostapp.com/" target="_blank"><v-btn style="background-color: #252835;" fab small depressed="true"  dark v-bind="attrs"
+                 <a href="http://opentabs.org/" target="_blank"><v-btn style="background-color: #252835;" fab small depressed="true"  dark v-bind="attrs"
                   v-on="on">
                   <v-icon small=""> fas fa-desktop</v-icon>
                   </v-btn></a>
@@ -118,7 +118,7 @@
             <v-tooltip top close-delay="300" color="secondary">
               <template v-slot:activator="{ on, attrs }">
                 <div class="text-center mr-5">
-                <a href="https://relaxant-forearms.000webhostapp.com/blog/" target="_blank" class="link-btn">  <v-btn style="background-color: #252835;" fab small depressed="true"  dark v-bind="attrs"
+                <a href="https://opentabs.org/blog" target="_blank" class="link-btn">  <v-btn style="background-color: #252835;" fab small depressed="true"  dark v-bind="attrs"
                   v-on="on">
                   <v-icon small=""> fas fa-desktop</v-icon>
                   </v-btn></a>
