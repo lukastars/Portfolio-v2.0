@@ -373,7 +373,7 @@
                       <template v-slot:activator="{ on, attrs }">
                         <div class="text-center mr-5">
                           <a
-                            href="https://lukastars.github.io/Digital-Agency/"
+                            href="https://lukastars.github.io/Weather-App"
                             target="_blank"
                             class="link-btn"
                           >
@@ -398,7 +398,7 @@
                       <template v-slot:activator="{ on, attrs }">
                         <div class="text-center ml-5">
                           <a
-                            href="https://github.com/lukastars/Digital-Agency"
+                            href="https://github.com/lukastars/Weather-App"
                             target="_blank"
                             class="link-btn"
                           >
