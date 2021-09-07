@@ -96,7 +96,7 @@
                 </v-list-item>
                 <v-list-item>
                   <a
-                    href="https://drive.google.com/file/d/1D6Le7SFhZlz-GRmyP9rqvxFM735CB5cd/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1dflA1MrbrzKuXlAS26jA4OCqMICFuOSn/view?usp=sharing"
                     target="_blank"
                     class="link-btn"
                     ><v-btn text="true">
@@ -177,7 +177,7 @@
               <span class="text-color">About</span>
             </v-btn>
             <a
-              href="https://drive.google.com/file/d/1D6Le7SFhZlz-GRmyP9rqvxFM735CB5cd/view?usp=sharing"
+              href="https://drive.google.com/file/d/1dflA1MrbrzKuXlAS26jA4OCqMICFuOSn/view?usp=sharing"
               target="_blank"
               class="link-btn"
             >
