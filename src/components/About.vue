@@ -24,11 +24,12 @@
 
           <p class="skills-items">
             <span class="tech-skills-title">Languages:</span> JavaScript[ES6+],
-            HTML, CSS, Sass
+            HTML, CSS, Sass, TypeScript
           </p>
           <p class="skills-items">
             <span class="tech-skills-title">Frameworks & Libraries:</span>
-            Vue.js, Bootstrap, Tailwind CSS, Vuetify, Vue-Router, Axios, Jest
+            Vue.js, Vuex, Bootstrap, Tailwind CSS, Vuetify, Vue-Router, Axios,
+            Jest
           </p>
           <p class="skills-items">
             <span class="tech-skills-title">Web Technologies:</span>
@@ -40,7 +41,8 @@
           </p>
           <p class="skills-items">
             <span class="tech-skills-title">Skills:</span> Responsive Web
-            Design, PSD to HTML, Agile, SEO, Web Optimization
+            Design, PSD to HTML, Agile, Object Oriented Development, SEO, Web
+            Optimization
           </p>
         </div>
       </v-row>
