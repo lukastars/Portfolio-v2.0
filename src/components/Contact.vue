@@ -55,7 +55,7 @@
                     required
                   ></v-textarea>
                 </v-col>
-                <v-btn @click="submit" class="submit-btn">
+                <v-btn type="submit" class="submit-btn">
                   submit
                 </v-btn>
               </v-row>
