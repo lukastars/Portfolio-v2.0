@@ -14,6 +14,7 @@
         </p>
         <template>
           <v-form
+            @submit.prevent="handleSubmit"
             ref="form"
             class="contact-form mb-10 mt-7 p-3 "
             v-model="valid"
@@ -23,12 +24,17 @@
             data-netlify-honeypot="bot-field"
           >
             <v-container>
-              <input type="hidden" name="form-name" value="contact" />
+              <input
+                style="display:none;"
+                type="hidden"
+                name="form-name"
+                value="contact"
+              />
               <v-row>
                 <v-col cols="12" md="6">
                   <v-text-field
                     name="name"
-                    v-model="name"
+                    v-model="form.name"
                     :rules="nameRules"
                     label="Name"
                     required
@@ -38,7 +44,7 @@
                 <v-col cols="12" md="6">
                   <v-text-field
                     name="email"
-                    v-model="email"
+                    v-model="form.email"
                     :rules="emailRules"
                     label="E-mail"
                     required
@@ -48,7 +54,7 @@
                 <v-col cols="12" md="12">
                   <v-textarea
                     name="message"
-                    v-model="message"
+                    v-model="form.message"
                     outlined
                     :rules="messageRules"
                     label="Message"
@@ -144,6 +150,11 @@ const easings = {
 export default {
   data() {
     return {
+      form: {
+        name: '',
+        email: '',
+        message: '',
+      },
       type: 'selector',
       selector: ['#projects', '#about', '#home'],
       selected: 'Button',
@@ -179,6 +190,27 @@ export default {
     },
   },
   methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          (key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join('&');
+    },
+    handleSubmit() {
+      fetch('/', {
+        method: 'post',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: this.encode({
+          'form-name': 'contact',
+          ...this.form,
+        }),
+      })
+        .then(() => console.log('successfully sent'))
+        .catch((e) => console.error(e));
+    },
     validate() {
       this.$refs.form.validate();
     },
