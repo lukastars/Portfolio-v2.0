@@ -14,15 +14,16 @@
         </p>
         <template>
           <v-form
-            netlify
             ref="form"
             class="contact-form mb-10 mt-7 p-3 "
             v-model="valid"
             name="contact"
             method="POST"
             data-netlify="true"
+            data-netlify-honeypot="bot-field"
           >
             <v-container>
+              <input type="hidden" name="form-name" value="contact" />
               <v-row>
                 <v-col cols="12" md="6">
                   <v-text-field
