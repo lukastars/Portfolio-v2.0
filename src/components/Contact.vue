@@ -14,6 +14,7 @@
         </p>
         <template>
           <v-form
+            netlify
             ref="form"
             class="contact-form mb-10 mt-7 p-3 "
             v-model="valid"
