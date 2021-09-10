@@ -33,11 +33,12 @@
           </p>
           <p class="skills-items">
             <span class="tech-skills-title">Web Technologies:</span>
-            Git, Fetch API, NPM, GitHub, ESLint, Babel, Figma
+            Git, Fetch API, NPM, GitHub, ESLint, Babel
           </p>
           <p class="skills-items">
             <span class="tech-skills-title">Tools:</span>
-            VScode, Heroku, Netlify, Chrome DevTools, Vue.js devtools, Postman
+            VScode, Heroku, Figma, Netlify, Chrome DevTools, Vue.js devtools,
+            Postman
           </p>
           <p class="skills-items">
             <span class="tech-skills-title">Skills:</span> Responsive Web
