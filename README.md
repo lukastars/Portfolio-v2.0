@@ -1,4 +1,4 @@
-# Portfolio v2.0 [Live Preview](https://ali-portfolio-v2.netlify.app)
+# Portfolio v2.0 [Live Preview](https://lukastars.github.io/Portfolio-v2.0/)
 
 ## Project setup
 ```
