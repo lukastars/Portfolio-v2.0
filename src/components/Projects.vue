@@ -283,7 +283,7 @@
                     <v-tooltip top close-delay="300" color="secondary">
                       <template v-slot:activator="{ on, attrs }">
                         <div class="text-center mr-5">
-                          <a href="http://opentabs.org/" target="_blank"
+                          <a href="https://opentabs.org/" target="_blank"
                             ><v-btn
                               style="background-color: #252835;"
                               fab
