@@ -65,7 +65,7 @@
                       <template v-slot:activator="{ on, attrs }">
                         <div class="text-center mr-5">
                           <a
-                            href="https://covid-19-tracker-777.netlify.app/"
+                            href="https://lukastars.github.io/covid-19-tracker/"
                             target="_blank"
                             ><v-btn
                               style="background-color: #252835;"

@@ -20,8 +20,7 @@
             v-model="valid"
             name="contact"
             method="POST"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            action="https://formspree.io/f/xyylolpz"
           >
             <v-container>
               <input
